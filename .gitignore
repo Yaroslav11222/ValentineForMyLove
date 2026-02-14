@@ -1,0 +1,9 @@
+# Игнорируем реальные фотографии (они приватные)
+images/*.jpg
+images/*.jpeg
+images/*.png
+images/*.gif
+
+# Но оставляем README
+!images/README.txt
+!images/.gitkeep
