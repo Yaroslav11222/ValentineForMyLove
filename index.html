@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="С Днём Святого Валентина!">
+  <title>💕 С Днём Святого Валентина 💕</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="hearts-container"></div>
+
+  <!-- Конверт -->
+  <div id="envelope" class="envelope hidden">
+    <div class="envelope-flap"></div>
+    <div class="envelope-body"></div>
+  </div>
+
+  <!-- Открытый конверт с содержимым -->
+  <div id="opened-envelope" class="opened-envelope hidden">
+    
+    <!-- Контейнер для Polaroid фото -->
+    <div id="photos-container" class="photos-container"></div>
+
+    <!-- Текстовый блок -->
+    <div id="text-container" class="text-container hidden"></div>
+  </div>
+
+  <!-- Фоновые декоративные элементы -->
+  <div class="background-decoration"></div>
+
+  <!-- Подключаем скрипты -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
