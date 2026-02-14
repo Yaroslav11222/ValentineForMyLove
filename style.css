@@ -28,7 +28,7 @@
 }
 
 body {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Quicksand', sans-serif;
   background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-secondary) 100%);
   min-height: 100vh;
   overflow-x: hidden;
@@ -283,7 +283,7 @@ body {
 
 .polaroid-caption {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   color: var(--color-text);
   margin-top: 8px;
@@ -308,7 +308,7 @@ body {
 }
 
 .text-block {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: clamp(24px, 5vw, 36px);
   color: var(--color-pink-dark);
   line-height: 1.6;
